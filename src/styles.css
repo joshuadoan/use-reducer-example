@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 4rem;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+}
+
+label {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 1rem;
+}
+
+pre {
+  padding: 2.5rem;
+  font-size: 1rem;
+  line-height: 1.625;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  background-color: green;
+  color: #41ff00;
+}
+
+button {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  text-transform: none;
+  cursor: pointer;
+  -webkit-appearance: button;
+  background-image: none;
+  border-radius: 0.25rem;
+  --bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: rgb(255 255 255 / var(--text-opacity));
+}
